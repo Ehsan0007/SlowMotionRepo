@@ -12,7 +12,7 @@ export default class App extends Component {
     recordVideo = () => {
         ToastExample.pickVideo()
         .then(data => {
-          console.log("success data",data);
+          console.log("success reposne video",data);
           //success 
         })
         .catch(error => {
