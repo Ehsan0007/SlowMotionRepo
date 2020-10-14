@@ -59,7 +59,6 @@
         android:id="@+id/videoViewContainer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"
         android:background="#000000"
         android:visibility="gone">
 
@@ -67,7 +66,6 @@
             android:id="@+id/videoView"
             android:layout_centerInParent="true"
             android:layout_width="match_parent"
-            android:minWidth="320dp"
             android:layout_height="match_parent" />
 
         <ImageView
